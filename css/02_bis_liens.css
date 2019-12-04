@@ -1,0 +1,14 @@
+/*Les styles pour La page avec Les liens Hyper texte*/
+
+body {
+    background-color: rgb(159, 194, 240);
+}
+
+/*Une classe pour styler certains parties de La page*/
+
+.fond_rose{
+    background-color: rgb(192, 255, 234);
+}
+.fond_purple {
+    background-color: rgb(221, 103, 215);
+}
