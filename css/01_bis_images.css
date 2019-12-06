@@ -3,4 +3,7 @@ body {
     background-color: lightslategray;
     color: purple;
 }
-01_bis_images.css
+img {
+    border: 10px solid;
+    color: greenyellow;
+}
