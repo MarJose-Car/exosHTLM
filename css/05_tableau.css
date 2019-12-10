@@ -8,7 +8,7 @@
     
 }
 body {
-    background-color: rgb(20, 136, 107); 
+    background:linear-gradient (to right, purple, greenyellow ); 
     /*largeur de la page 50% de la taille de l'écran du navigateur*/   
     width: 50%;
     margin: auto;

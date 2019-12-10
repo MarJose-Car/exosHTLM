@@ -1,13 +1,25 @@
-/*ceci est un commentaire*/
 body {
     background-color: lightcyan;
 }
 .rectangle {
+    /*une couleur en dégradé pour la classe, un dégradé qui démarre avec la 1ère couleur et finit avec la 2nde couleur, par défaut, de haut en bas.*/
+    background: linear-gradient(to right, #ffaabb, #55af15);
     border: 1px solid red;
     /*Largeur*/
-    width: 45cm;
+    width: 45em;
     /*hauteur*/
-    height: 45cm;
+    height: 45em;
     /*pas de marge (valeur 0) en haut et en bas et la valeur auto Laisse le navigateur centrer l'élément*/
     margin: 0 auto;
+}
+.cercle {background: linear-gradient(to left, #dcffcc, #baabda);
+    border: 1px solid red;
+    /*Largeur*/
+    width: 25em;
+    /*hauteur*/
+    height: 25em;
+    /*pas de marge (valeur 0) en haut et en bas et la valeur auto Laisse le navigateur centrer l'élément*/
+    margin: 0 auto;
+    /*La propriété border-radius permet d'arrondir plus au moins les angles*/
+    border-radius: 50%;
 }
