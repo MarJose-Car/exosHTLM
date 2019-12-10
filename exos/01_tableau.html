@@ -1,0 +1,86 @@
+<!DOCTYPE html><!--ceci est un commentaire : DOCTYPE est La première balise obligatoire dans un page HTLM : elle désigne Le type de document pour le navigateur ici .htlm-->
+<html lang="fr"><!--La balise html désigne Le début de La page : L'attribut Lang dont La valeur fr désigne La lanfue, le français utilisé côté utilisateur-->
+<head><!--La balise Head contient Les paramètres d'en-tête de La page html qui sont, pour la plupart, invisivles pour L'internaute-->
+    <meta charset="UTF-8"><!--L'encadrage des caractères pour afficher Les caractèeres spéciaux tels que Les accents -->
+    <title>Mon premier tableau</title><!--Le titre de la page-->
+    <link rel="stylesheet" href="../css/01_tableau.css">
+</head>
+<body>
+    <h1>Un tableau, pour les données "tabulaires"</h1>
+    <!-- ouverture du tableau-->
+    <!--border juste quand on monte le tableau car désuet-->
+    <table>
+        <!--titre du tableau (La légende) : CAPTION ( Les cellules sont fusionnées)-->
+        <caption>Ventes de la semaine</caption>
+        <!--rangéé d'en tête du tableau : THEAD et TR-->
+        <thead>
+           <tr>
+               <!--cellules d'en tête : TH table head-->
+               <th>Jours</th>
+               <th>Smartphone</th>
+               <th>Tablettes</th>
+               <th>Ordinateurs portables</th>
+           </tr>
+        </thead>
+        <!--Le bas ou la fin du tableau : TFOOT Les normes du W3c mettent La balise tfoot avant la balise tbody-->
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>46</td>
+                <td>22</td>
+                <td>52</td>
+            </tr>
+        </tfoot>
+
+        <!--voir-->
+        <!--le corps du tableau-->
+        <tbody>
+            <!--tr*5>td*4 pour faire notre tableau de 5 rangées et 4 colonnes-->
+            <!--rangéé de tableau : table row-->
+            <tr>
+                <!--cellules de tableau : ID, table data-->
+                <td>Lundi</td>
+                <td>20</td>
+                <td>2</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Mardi</td>
+                <td>5</td>
+                <td>3</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Mercredi</td>
+                <td>6</td>
+                <td>4</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Jeudi</td>
+                <td>5</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Vendredi</td>
+                <td>10</td>
+                <td>2</td>
+                <td>8</td>
+            </tr>
+
+        </tbody>
+
+
+
+
+
+
+
+
+    </table>
+
+
+
+</body>
+</html>

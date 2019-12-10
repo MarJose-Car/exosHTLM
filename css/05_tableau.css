@@ -1,4 +1,66 @@
-/* ceci est le style pour un tableau*/
-body{
-    background-color: hotpink;
+/*ceci est Le style pour un tableau*/
+/*L'étoile ou astérique sélectionne tous les éléments de ma page html*/
+/*Le font-family nous permet de definir la typo utiliseée sur la page : Les typos présentent dans */
+/*Portez ce vieux whisky au juge blond qui fume - cette phrase contient tous les lettres de l'alphabet*/
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Georgia, Verdana, sans-serif;
+   
+    
 }
+body {
+    background-color: rgb(20, 136, 107); 
+    /*largeur de la page 50% de la taille de l'écran du navigateur*/   
+    width: 50%;
+    margin: auto;
+    /*margin la marge extérieur de l'élément* avec une gestion automatique des marges pour que le contenu de body soit centré dans la fenêtre*/
+  }
+  /*Les styles pour le tableau*/
+  /* BORDER : 3 valeurs : épaisseur, type de filet, couleur*/
+  table {
+        /*La bordure extérieur du tableau*/
+        border: 4px solid #483dbd;
+
+        /*par défaut La bordure contient 2 traits, pour que le trait soit unique la propriété "collapse*/
+        border-collapse: collapse;
+        /* la larger du tebleau par rapport à son contenant donc ici BODY// Le tableau hérite des propriétes de son contenant dauf chanchement ici de la coleur de fond*/
+        width: 90%;
+        background-color: limegreen;
+  }
+  /*En CSS est possible de céclarer plusieurs éléments et de leur affecter les mêmes pripriétes. Les éléments séparés pour une virgule*/
+  thead, tfoot {
+      background-color: aquamarine; 
+      border:2px solid blueviolet;
+  }
+  tbody {
+      /*border : 1px solid bleue;*/
+  }
+      /*dotted = pointillé*/
+      th {
+        border: 3px solid blueviolet;
+        /*La marge intérieur de lélément ; padding*/
+        padding: 10px;
+        /* chaque élément fait 25% du parent*/
+        width: 25%;
+  }
+  td {
+      border: 1px dotted #6a5acd;
+      text-align: center;
+      padding: 5px;
+  }
+  /*td :first-child, le 1er td pour aligner à gauche le texte dans la première cellule de chaque rangéé*/
+  tr td:first-child {
+      text-align: left;
+      background-color:green;
+
+  }
+  caption {
+    background-color: #e6e6fa;
+    /* border: 3px solid #483d8b; */
+    padding: 10px;
+    /* border-collapse: collapse; */
+    font-weight: bold;
+    text-transform: uppercase;
+    /*https://www.w3schools.com/*
+    /* pallete de colors : https://colorhunt.com */
+
+  }

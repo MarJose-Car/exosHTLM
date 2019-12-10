@@ -1,0 +1,13 @@
+/*ceci est un commentaire*/
+body{
+    background-color: lightcyan;
+}
+.rectangle{
+    border: 1pxs solid red;
+    /*Largeur*/
+    width: 45cm;
+    /*hauteur*/
+    heigh: 45cm;
+    :µpas de marge (valeur 0) en haut et en bas et la valeur auto Laisse le navigateur centrer l'élément*/
+    margin: 0 auto;
+}
