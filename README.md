@@ -1,2 +1,2 @@
 # exosHTML
- exosHTLM phase 1 Lepoles
+ exosHTML phase 1 Lepoles
