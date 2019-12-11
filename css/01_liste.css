@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(179, 128, 152);
+}
+ul {background-color: white;
+    width: 50%
+}
+ul li:nth-child(even) {
+    background-color: khaki;
+}
+ul li:nth-child(odd) {
+    background-color: lightskyblue;
+}
+ul>li {
+    /*square, circle, disc*/
+    list-style-type: circle;
+
+}

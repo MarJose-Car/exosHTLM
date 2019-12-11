@@ -2,23 +2,74 @@
 
 body {
     background-color: papayawhip;
-    color: orangered;
+    /*taille de lapolice ou de la typo ou de la font ( et pas de lécriture*/
+    font-size: 18px;
 
 }
+/*des propriétés pour la section et pour les differents paragraphe de la section*/
 /*des classes pour la page*/
+section {
+    background-color: lightgrey;
+    width: 50%;
+    padding: 5px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+.zone1, .zone2 {
+    /*hauteur du bloc*/
+    height:70px
+}
 .zone1 {
     background-color: green;
-    height: 50px;
+    /*height hauteur du container zone de contenu)*/
 }
 .zone2 {
     background-color: pink;
-    /*hauteur du bloc*/
-    height:70px
-    
+    /*hauteur du bloc*/    
 }
-
 /* des styles pour des ID */
 #zone3 {
     background-color: royalblue;
     color: whitesmoke
+}
+#zone3:before {
+    /*on rajoute du contenu (content) avant L'ID zone3*/
+    content: "rajouté avant la zone 3";
+}
+#zone3:after {
+    /*on rajoute du contenu (content) après L'ID zone3*/
+    content: "rajouté après la zone 3";
+
+
+}
+section p {
+    /*tous les P à l'intérieur de la balise SECTION est une couleur*/
+    color: olive;
+}
+
+section p:first-child {
+    /*Le premier P de la section sera darkblue et en gras, premier enfant d'un élément*/
+    color: darkblue;
+    font-weight: bolder;
+}
+section p:last-child {
+    /*Le dernier P de chaque section aura un fond orange : dernier enfant d'un élément*/
+    background-color: orange;
+}
+section p:nth-child(3), p:nth-child(6) {
+    /*Le 3ème P de chaque section sera en majuscule: le énième d'un élément, on peut faire les exceptions*/
+    text-transform: uppercase;
+}
+section p:nth-child(even) {
+    /*tous les P pair*/
+    background-color: white;
+}
+section p:nth-child(odd) {
+    /*tous les P impair*/
+    background-color:rgb(165, 221, 165);
+}
+section p:nth-child(5), section p:nth-child(9) {
+    /*Le 5ème et le 9ème P de chaque section auront la premièere lettre du mot en majuscule: le énième d'un élément*/
+    text-transform: capitalize;
+    height: 50px;
 }
