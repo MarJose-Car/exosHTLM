@@ -1,9 +1,23 @@
 body {
-    background-color: mediumturquoise;
+    background-color: rgb(190, 107, 146);
 }
-.cubitus{
+.cubitus1, .cubitus2 {
     background-color: mistyrose;
     width: 150px;
     height: 150px;
     border: 2px solid darkorange;
+    float: left;
+    margin: 5px;
+    border-radius: 20%;
+    text-align: center;
+}
+.cubitus1 {
+    background-color: cadetblue;
+}
+.cubitus2 {
+    background-color: cyan;
+    border-radius: 50%;
+}
+.clear {
+    clear: both;
 }
