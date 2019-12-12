@@ -1,0 +1,9 @@
+body {
+    background-color: mediumturquoise;
+}
+.cubitus{
+    background-color: mistyrose;
+    width: 150px;
+    height: 150px;
+    border: 2px solid darkorange;
+}

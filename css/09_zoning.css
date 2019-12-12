@@ -1,0 +1,46 @@
+/*feuille de style pour le second zoning*/
+body {
+    background-color: lightsalmon;
+}
+#contenu {
+    width: 80%;
+    border: 5px solid white;
+    margin: 100px;
+}
+header {
+    background-color: rgb(130, 202, 130);
+    background: linear-gradient(to left,#bf00ff, rgb(148, 167, 148));
+    height: 100px;
+}
+nav {
+    background-color: orchid;
+    height: 50px;
+}
+section {
+    height: 500px;
+    background-color: rgb(160, 134, 87);
+}
+footer {
+    background-color: orchid;
+    height: 100px;
+}
+.clear {
+    clear: both;
+}
+.a,.b,.c,.d {
+    width: 50%;
+    height: 250px;float: left;
+    float: left;
+}
+.a {
+    background-color: rgb(134, 79, 118);
+}
+.b {
+    background-color: rgb(106, 163, 111);
+}
+.c {
+    background-color: rgb(106, 163, 111);
+}
+.d {
+    background-color: rgb(134, 79, 118);
+}

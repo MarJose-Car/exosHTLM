@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!--Par convention on place les balises META avant Le title-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Maria-José De Carvalho : Les balises HTML">
+    <meta name="author" content=" Maria-José De Carvalho">
+    <meta name="keywords" content="Maria-José De Carvalho, balises, HTML,section, div, article"><!--mots-clefs du site qui aident au reférencement naturel-->
+    <title>Le premier zoning</title>
+    <!--La feuille de style externe-->
+    <link rel="stylesheet" href="css/09_zoning.css">    
+</head>
+<body>
+    <div id="contenu">
+        <header>Haut</header>
+        <nav>Navigation</nav>
+        <section>
+            <!--div*6.-->
+            <!--à partir de ces div j'ai float left; pour casser le flux-->
+            <div class="a">a</div>
+            <div class="b">b</div>
+            <!--grâce à la div class clear je rétablis le flux-->
+            <div class="clear"></div>
+            <!--ici je le casse de nouveau-->
+            <div class="c">c</div>
+            <div class="d">d</div>
+            <!--et dès que je n'en ai plus besoin, par sécurité je le rétablie-->
+            <div class="clear"></div>
+        </section>
+        <footer>Pied de page</footer>
+    </div>
+</body>
+</html>
