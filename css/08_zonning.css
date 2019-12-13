@@ -21,8 +21,40 @@ nav {
     background-color: rgb(220, 200, 12);
     height: 60px;
     padding-left: 40px;
-    /* padding-top: 5px; */
+    /* padding-top: 5px;  */
 }
+/*pour être certain de na pas avoir des puces*/
+nav ul {
+    list-style: none;
+    background-color: rgb(139, 161, 223);
+}
+/* pour pointer les listes que sont dans la nav*/
+nav li {
+    display: inline;
+    list-style: none;
+}
+nav li a {
+    color: white;
+    background-color: rgb(94, 46, 46);
+    text-align: center;
+    padding: 2 px;
+    text-decoration: none;
+}
+nav li a:link {
+    color: rgb(233, 10, 10);
+}
+nav li a:hover {
+    color: saddlebrown;
+    background-color: white;
+}
+/*le lien au au clic de la souris, selectionné*/
+nav li a:active {
+    background-color:royalblue;
+}
+nav li a:visited {
+    background-color: rgb(108, 112, 143);
+}
+/*Les styles pour la section*/
 section {
     border: 20px solid rgb(110, 177, 10);
     height: 400px;

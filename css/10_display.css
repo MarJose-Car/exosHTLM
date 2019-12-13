@@ -1,5 +1,14 @@
-BODY {
+body {
     background-color: lightcoral;
+}
+h1,h3,div,p {
+    text-align: center;
+    background-color: rgb(172, 101, 101);
+    text-transform: uppercase;
+
+}
+h1:hover {
+    background-color: turquoise;
 }
 .encadre {
     background-color: lightgreen;
