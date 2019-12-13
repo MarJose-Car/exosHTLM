@@ -1,0 +1,21 @@
+BODY {
+    background-color: lightcoral;
+}
+.encadre {
+    background-color: lightgreen;
+    padding: 2px;
+    /* display: block; */
+}
+/*hover c'est une pseudo class au survol de la souris*/
+a:hover {
+    background: lightsteelblue;
+    color:white
+}
+/*avec cette class je peux modifier l'affichage normal de la balise de type inline à laquelle j'affecte cette class et qui devient de type block*/
+.block{
+    display: block;
+}
+/* avec cette class je peux faire le contraire : modifier une balise de type block qui devient de type inline*/
+.inline {
+    display: inline;
+}

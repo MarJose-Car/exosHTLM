@@ -7,3 +7,6 @@ img {
     border: 10px solid;
     color: greenyellow;
 }
+.block {
+    display: inline;
+}
