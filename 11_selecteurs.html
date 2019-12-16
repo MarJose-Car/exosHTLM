@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/10_selecteurs.css">
+    <title>Les listes </title>
+    </head>
+    <body>
+        <ol>
+            <h2> Les cinq continents</h2>
+            <li>Europe
+                >
+                    <li>Portugal
+                        <ul>
+                            <li>Minho</li>
+                            <li>Beira Alta</li>
+                            <li>Beira Baixa</li>
+                            <li>Estremadura
+                                <ol>
+                                    <li>Lisboa</li>
+                                    <li>Sintra</li>
+                                    <li>Cascais</li>
+                                    <li>Setubal</l>
+                                    <li>Vialonga</li>
+                                </ol>
+                            </li>
+                            <li>Algarve</li>
+                        </ul>
+                    </li>
+                    <li>Espagne</li>
+                    <li>France
+                        <ol>
+                            <li>Pas de Calais
+                                <ul>
+                                    <li>un
+                                        <ol>
+                                            <li>vert
+                                                <ul>
+                                                    <li>écrire</li>
+                                                    <li>manger</li>
+                                                    <li>boire</li>
+                                                    <li>dormir</li>
+                                                    <li>nager</li>
+                                                </ul>
+                                            </li>
+                                            <li>jaune</li>
+                                            <li>noir</li>
+                                            <li>bleue</li>
+                                            <li>rouge</li>
+                                        </ol>
+                                    </li>
+                                    <li>deux
+                                        <ol>
+                                            <li>parler</li>
+                                            <li>danser</li>
+                                            <li>rire</li>
+                                            <li>voir</li>
+                                            <li>panser</li>
+                                        </ol>
+                                    </li>
+                                    <li>trois</li>
+                                    <li>quatre</li>
+                                    <li>cinq</li>
+                                </ul>
+                            </li>
+                            <li>Île de France</li>
+                            <li>Côte d'azur</li>
+                            <li>Bratagne</li>
+                            <li>Loire</li>
+                        </ol>
+                    </li>
+                    <li>Italie</li>
+                    <li>Belgique</li>
+                </ul>
+            </li>
+            <li>Afrique
+                <ul>
+                    <li>Angola</li>
+                    <li>Guiné</li>
+                    <li>Afrique du Sud</li>
+                    <li>Algérie</li>
+                    <li>Maroc</li>
+                </ul>
+            </li>
+            <li>Asie
+                <ul>
+                    <li>Afghanistan</li>
+                    <li>Arabie saoudite</li>
+                    <li>Arménie</li>
+                    <li>Azerbaïdjan</li>
+                    <li>Bahreïn</li>
+                </ul>
+            </li>
+            <li>Amérique</li>
+            <li>Oceanie
+                <ul>
+                    <li>Australie.</li>
+                    <li>Îles Cook.</li>
+                    <li>Fidji</li>
+                    <li>Îles Marshall</li>
+                    <li>Micronésie</li>
+                </ul>
+            </li>
+        </ol>
+        <h2>Propriétés CSS à rechercher</h2>
+        <h4>Rechercher les propriétes ci-dessous, faites des tests avec ses propriétes pour cette page et depuis la console de débougage pour tester les valeurs qu'elles peuvent prendre</h4>
+        <ul>
+            <li><span>font-weight:</span> La propriété CSS font-weight permet de spécifier le type de gras à utiliser pour l'affichage de la fonte.Exemple d'écriture CSS de font-weight font-weight : normal; font-weight : bold; font-weight : bolder; font-weight : 800; La propriété de feuille de style font-weight CSS pour mettre en gras peut p...:specifie l'hauteur des caractères et leurs expessure: Syntax: &lt;font-weight-absolute>{1,2}</li>
+            <li><span>letter-spacing:</span> :La propriété letter-spacing définit l'interlettre utilisée pour les caractères qui composent le texte./* Valeurs de longueur */
+                /* Type &lt;length>       */
+                letter-spacing: 0.3em;
+                letter-spacing: 3px;
+                letter-spacing: .3px;
+                
+                /* Valeur avec mot-clé */
+                letter-spacing: normal;
+                
+                /* Valeurs globales */
+                letter-spacing: inherit;
+                letter-spacing: initial;
+                letter-spacing: unset;
+                specifie le minimum,le maximum et l'optimil space entre les lettres: Syntax: normal Valeurs
+
+                normal
+                    L'interlettre est dictée par la police utilisée. À la différence de 0, cette valeur permet à l'agent utilisateur de modifier l'espace entre les caractères afin de le justifier.
+                &lt;length>
+                    Cette valeur indique l'espace ajouté à l'espace par défaut. Les valeurs peuvent être négatives mais les limites imposées dépendent de l'implémentation du moteur. Les agents utilisateurs ne pourront plus augmenter ou réduire l'interlettre afin de justifier le texte. Pour les différentes unités possibles, se référer à la page <length>. | &lt;length>length></li>
+            <li><span>word-spacing:</span> specifie un espace adictionnel entre les mots:Syntax: normal &lt;length-percentage>length-percentage></li>
+            <li><span>background-image:</span>couleur de fond d'une image : Syntax: &lt;bg-image>#</li>
+            <li><span>background-size:</span>specifie le fond d'une image dans un éléments</li>
+            <li><span>opacity</span>opacité d'un élément text, where 1 is opaque et 0 completement transparent:Syntax: &lt;alpha-value>alpha-value></li>
+            <li><span>border-style</span>propriété pour la bordure, taille, hauteur, marge extérieur, marge intérieur, style et couleur;Syntax: &lt;line-width>line-style>color></li>
+            <li><span>box-shadow</span>La propriété CSS box-shadow ajoute des ombres à la boîte d'un élément via une liste d'ombres séparées par des virgules</li>
+            <li><span>liste-style-image</span> La propriété list-style-image définit l'image utilisée comme puce devant les éléments de listes.</li>
+            <li><span>border</span>border est une propriété raccourcie qui permet de définir les propriétés liées à la bordure.</li>
+            <li><span>border-radius</span>border-radius permet de définir des coins arrondis pour la bordure d'un élément.</li>
+            <li><span>border-width</span>border-width est une propriété raccourcie qui définit la largeur de la bordure d'un élément.</li>
+            <li><span>font-vatiant</span> La propriété font-variant-caps permet de contrôler les glyphes utilisés pour représenter les lettres en capitales.</li>
+            <li><span>background-color</span>La propriété background-color permet de définir la couleur utilisée pour l'arrière-plan d'un élément</li>
+            <li><span>!important</span>La règle CSS !important permet de spécifier que la propriété est la plus importante dans votre feuille CSS en lui donnant un poids plus important.La règle de feuille de style !important CSS est généralement utilisée dans le cas où une propriété de feuille de style CSS est déclarée plusieurs fois avec des ciblages différents.La règle CSS !important est applicable sur toutes les feuilles de style et ne concerne que la propriété CSS sur laquelle on a appliqué la règle.
+            La règle de feuille de style !important CSS n'a pas d'équivalence en HTML ou XHTML.
+            La règle CSS !important est à éviter si possible. Optez si vous le pouvez pour un changement de sélecteurs CSS afin de jouer sur le poids du chemin de sélection</li>
+        </ul>
+       
+        <p><img src="img/chaton01.jpg" alt="chaton"></p> 
+
+    </body>
+</html>
