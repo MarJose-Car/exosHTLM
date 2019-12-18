@@ -1,32 +1,53 @@
 body {
-    background-color: rgb(190, 107, 146);
+    background-color: mediumturquoise;
 }
-.cubitus1, .cubitus2, .cubitus3, .cubitus4 {
-    background-color: mistyrose;
+.cubitus1,.cubitus2,.cubitus3,.cubitus4,.cubitus5,.cubitus6{
+    background-color: rgb(225, 255, 230);
     width: 150px;
     height: 150px;
     border: 2px solid darkorange;
     float: left;
-    margin: 5px;
-    border-radius: 20%;
-    text-align: center;
 }
-.cubitus1 {
-    background-color: cadetblue;
-    border-radius: 50em;
+.cubitus1{
+    background-color: chocolate;
+    border-bottom-left-radius: 20em;
+    border-top-left-radius: 50em;
+    border-bottom-right-radius: 30em;
+    border-top-color: palevioletred;
 }
-.cubitus2 {
-    background-color: cyan;
-    border- 50em;
-    border-bottom-left-radius: 12em;
-    border-bottom right radius: 20em;
+.cubitus2{
+    background-color: darkgoldenrod;
+    border-bottom-left-radius: 50em;
+    border-left-style: groove;
+    border-bottom-right-radius: 30em;
+    border-right-style: solid;
 }
 .cubitus3{
-    background-color: rgb(187, 177, 99);
+    background-color: mistyrose;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 10em;
+    border-top-right-radius: 2em;
 }
 .cubitus4{
-    background-color: rgb(214, 159, 214);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    opacity: 0.2;
+    line-height: 1.0;
 }
-.clear {
+.cubitus5{
+    border-bottom-right-radius: 30em;
+    border-top-left-radius: 20em;
+   
+}
+.cubitus6{
+    background-color: blue;
+    border-radius: 50%;
+    width: 50%;
+}
+.clear{
     clear: both;
 }
