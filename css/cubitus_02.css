@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: mediumturquoise;
 }
 .cubitus1,.cubitus2,.cubitus3,.cubitus4,.cubitus5,.cubitus6{
@@ -50,4 +50,54 @@ body {
 }
 .clear{
     clear: both;
+} */
+
+body{
+    background-color: rgb(109, 230, 230);
 }
+.C1,.C2,.C3,.C4,.C5,.empty {
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+    text-align: center;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.C1 {
+    background-color: rgb(19, 119, 109);
+    border-bottom-left-radius: 20em;
+    border-top-left-radius: 50em;
+    border-bottom-right-radius: 30em;
+    border-top-color: palevioletred;
+    
+}
+.C2 {
+    background-color: rgb(33, 199, 96);
+    border-bottom-left-radius: 30em;
+    border-top-right-radius: 20em;
+}
+.C3 {
+    background-color: rgb(226, 173, 233);
+    border-radius: 50%;
+}
+.C4 {
+    background-color: rgba(211, 193, 58, 0.877);
+    border-bottom-right-radius: 60em;
+    border-top-left-radius: 2em;
+}
+.C5 {
+    background-color: rgb(190, 77, 77);
+    border-bottom-right-radius: 30em;
+    border-top-left-radius: 20em;
+}
+.C6 {
+    border-radius: 30%,40%,20%,10%;
+}
+.empty {
+    opacity: 0;
+   
+}
+/*border-radios: 30%,40%,60%,10%*/
